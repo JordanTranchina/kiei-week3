@@ -6,8 +6,21 @@ function pageLoad() {
 
     // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
     // The variable 'dinner' is already set to the value in the text input
+    console.log(dinner);
+
     let output
-    output = '🌮'
+    if (dinner == "tacos") {
+      output = '🌮'
+    } else if (dinner == "broccoli") {
+      output = "🥦"
+    } else if (dinner == "pizza") {
+      output = "🍕"
+    } else if (dinner == "kale" || dinner == "spinach") {
+      output = "🤮"
+    } else {
+      output = "meh"
+    }
+
 
     //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
     /*
