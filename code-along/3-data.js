@@ -12,7 +12,7 @@ function pageLoad() {
   //   ]
   // }
   //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
-  
+
   // template literals support HTML too!
   output = `
     <div class="text-4xl">Sweet</div>
